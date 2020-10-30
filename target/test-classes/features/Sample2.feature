@@ -9,7 +9,7 @@ Feature: Introduction to cucumber part 2
     When I enter name: "Ann"
     And I enter age: 5
     And I click submit age
-    Then I see message: "Hello, Ann, you are a kid"
+    Then I se message: "Hello, Ann, you are a kid"
 
   Scenario: a new scenario 2 with regex
     When I enter name: "Bob"
